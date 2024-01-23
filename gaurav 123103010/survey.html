@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NITKKR SURVEY FORM</title>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+    <div id="heading">
+        <h1 id="title"><b><u>NITKKR SURVEY FORM</u></b></h1>
+        <h2 id="description">Hey students! Let us know about yourself!</h2>
+    </div>
+    
+    <div id="main">
+        <form id="survey-form">
+            <div id="input-fields">
+                <label for="name" id="name-label"><b>NAME</b></label>
+                <input id="name" type="text" name="name" class="form" required placeholder="Full Name"><br><br>
+
+                <label for="rollno" id="roll-label"><b>ROLL NO</b></label>
+                <input id="rollno" type="text" name="rollno" class="form" required placeholder="Roll no"><br><br>
+                
+                <label for="branch" id="branch-label"><b>BRANCH</b></label>
+                <input id="branch" type="text" name="branch" class="form" required placeholder="Branch"><br><br>
+                
+                <label for="age" id="number-label"><b>AGE</b></label>
+                <input id="age" type="number" name="age" class="form" min="5" max="99" placeholder="Age"><br><br>
+            </div>
+            
+            <div id="dropdown-div">
+                <label for="section" id="dropdown-label"><strong>SECTION </strong></label><br>
+                <select id="section" name="section" class="form">
+                    <option value="section">Section</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select><br><br>
+            </div>
+            
+            <div id="button-area">
+                <label for="clubs" id="club-label"><b>CLUBS</b></label><br>
+                <input type="checkbox" name="finearts">FINE ARTS<br>
+                <input type="checkbox" name="suc">SUC<br>
+                <input type="checkbox" name="lsd">LSD<br>
+                <input type="checkbox" name="EMR">EMR<br>
+                <input type="checkbox" name="technobyte">TECHNOBYTE<br>
+                <input type="checkbox" name="freaks">FREAKS<br>
+                <input type="checkbox" name="infrastructure">INFRASTRUCTURE<br>
+                <input type="checkbox" name="microbus">MICROBUS<br><br>
+            </div>
+            
+            <div id="experience-dropdown">
+                <label for="exp" id="dropdown-label"><strong>How's the experience with clubs and technical societies</strong></label><br>
+                <select id="exp" name="exp" class="form">
+                    <option value="choose an option">Choose an option</option>
+                    <option value="really good">Really good</option>
+                    <option value="fairly good">Fairly good</option>
+                    <option value="not so good">Not so good</option>
+                    <option value="bad">Bad</option>
+                    <option value="very bad">Very bad</option>
+                </select><br><br>
+            </div>
+            
+            <div id="ending">
+                <label for="comments" id="comments-label"><strong>Do you have any suggestions about how clubs can be improved?</strong></label><br>
+                <textarea id="comments" class="form" style="height: 120px;" placeholder="Please feel free to write a suggestion..."></textarea><br><br>
+                
+                <input type="submit" id="submit" class="form">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
