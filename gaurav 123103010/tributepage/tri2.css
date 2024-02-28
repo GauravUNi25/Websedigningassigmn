@@ -1,0 +1,43 @@
+body {
+    background-color: #9feae05c;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    font-size: 3rem;
+    width: 60vw;
+    margin: 0 auto;
+    color: #0e2134;
+}
+
+.center {
+    text-align: center;
+}
+
+#image {
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+    .font {
+        padding: 0 2rem;
+    }
+}
+
+@media (orientation: landscape) {
+}
